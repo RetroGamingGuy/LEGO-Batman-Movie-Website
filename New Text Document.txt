@@ -1,0 +1,66 @@
+Start using CSS by putting <style> in your <head> after your <title>
+
+to change the background color of your website type in body and swiggly brackets {}
+make a space between the brackets then type in background-color: 
+then either say rgb(000,000,000)or type in a colour name like red,blue,or green
+then end with a ;
+
+to change the colour of your text type p,ul,ol,li,any of the headers, ect
+then type in color: then rgb or a colour name.
+or alternitivly to make all text be one color
+type in body: then rgb or colour name
+This will make all text that one color
+
+If you only want certain words or paragraphs be one colour you can create ids
+to create ids go to the place in your code you want to be unique/ have id
+type in id="______" in between the <__> (ex: <h2 id="example">)
+the only rules are you can't do spaces or capitals (you could use capitals but is harder to code)
+then to add changes to your id
+type in your <style> your id with a # in front of it then {} and your change in the brackets.
+
+classes are used to change several things without changing all the things.
+like ids you must type in class="_____" in between the <__> (ex: <h2 class="example">)
+then in your <style> type in your class name with a . in front of it then {} and your change in the brackets.
+
+to change the font of your text type in p,ul,ol,li, any of the headers, id,class, ect
+then type in the {} font-family: then your font.
+the font can be any font on your computer from word or powerpoint
+if the font is a font from your computer it has to be in lowercase and can have spaces (ex: font-family: comic sans;)
+sometimes some other user that have a diffrent computer as you wont be able to see your font because they don't have it downloaded on their computer
+so you can use what I like to call universal fonts, these include:
+sans-serif, serif, fantasy, monospace, and cursive. These fonts will be seen by everyone
+
+
+to change font size you need to type in font-size: 000px;in the {}
+
+to make fonts bold without typing in <strong>  you have to use font-weight
+type in font-weight: bold; to make several lines of text bold.
+
+to make fonts be in italic (thin and slanted) without typing in <em> you must use
+
+you can change the height your lines of text take up by typing in line-height: 00px
+you can also change line height by percent. Just use em instead of px. (ex: 1.5em or 150%)
+this will change it acourding the previous size the text was. (ex: 1.5em will increase previous text by 150%)
+
+to align text to a certain area of the page, for example the center, type in text-align: then right or center (left is original and not recommended to do right)
+
+to underline text you can use text-decoration: underline; other text decor include:
+overline=text underline is over text. line-through=text crossed out. underline overline=text has lines on top and bottom. blink=text blinks none=text has no decoration
+(text-decoration: none; can remove the underline on links.)
+
+to edit certain words in a sentence you can use <span> to do this.
+use type in <span>, then create an id, put the words you would liked chnaged in the middle,then end with </span>
+(ex: <span class="example">This is an example :)</span>)
+
+to make huge lines of text change you can use <div>
+<div> will divide your code into certain section which you change with ids
+it is like <span> but with <div> instead
+(ex: <div id="longer-example">long ammounts of text with lots of stuff</div>)
+
+
+
+
+
+
+
+
